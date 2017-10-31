@@ -226,6 +226,8 @@ public class GalleryActivity extends AppCompatActivity {
                     grantUriPermission(packageName, photoURI, Intent.FLAG_GRANT_WRITE_URI_PERMISSION | Intent.FLAG_GRANT_READ_URI_PERMISSION);
                 }
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                //takePictureIntent.putExtra("android.intent.extras.CAMERA_FACING", 1);
+
                 //openCalls(true);
                 super.startActivityForResult(takePictureIntent, Constants.CAMERA_CAPTURE);
                 //openCalls(false);
@@ -233,6 +235,9 @@ public class GalleryActivity extends AppCompatActivity {
             //openCalls(false);
         }
     }
+
+
+
 
 
 

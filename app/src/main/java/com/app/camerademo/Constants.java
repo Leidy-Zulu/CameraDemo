@@ -20,5 +20,8 @@ public final class Constants {
     public static final int FACTOR_CONVERSION_KB = 1024;
     public static final String MEGABYTE = " MB";
     public static final String KILOBYTE = " KB";
+    public static final String SUFFIX_FILE_AUDIO = ".mp3";
+    public static final String PATH_ATTACH_AUDIO = "pathAttachAudio";
+    public static final int MAX_DURATION = 30500;
 
 }
